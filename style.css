@@ -298,6 +298,10 @@ span.h2pink {
 	right:0;
 	background-color:rgba(0,0,0,0);
 }
+  
+.prod__image_cont:hover::before {
+	background: rgba(58, 56, 56, 0.86);
+}
 
 .prod__image_cont img {
 	display:block;
@@ -325,6 +329,9 @@ span.h2pink {
 	line-height: 17px;
 	color: #FFFFFF;
 } 
+.prod__image_cont:hover button {   
+	opacity: 1;
+}
 
 .card__text {
     background-color: #f8f8f8;
@@ -382,6 +389,11 @@ span.h2pink {
     line-height: 19px;
     color: #f26376;
     background: none;
+}
+
+.all__prod__button button:hover {
+    color: #FFFFFF;
+    background: #F16D7F;
 }
 
 .main__bottom {
@@ -586,6 +598,11 @@ span.h2pink {
     height: 32px;
     background: #FFFFFF;
     color: #000000;
+}
+
+.fa:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
 }
 
 @media (max-width: 1024px) {
